@@ -11,7 +11,6 @@ public class MyController {
         return "firstView";
     }
 
-
     @RequestMapping("/askDetails")
     public String askEmployeeDetails() {
         return "ask-emp-detail-view";
