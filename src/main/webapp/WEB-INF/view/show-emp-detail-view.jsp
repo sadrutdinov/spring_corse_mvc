@@ -10,7 +10,6 @@
 
 <%--Your name: ${param.employeeName}--%>
 Your name: ${nameAttribute}
-${description}
 
 </body>
 </html>
