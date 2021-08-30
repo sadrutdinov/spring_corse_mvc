@@ -9,6 +9,7 @@ import javax.jws.WebParam;
 import javax.servlet.http.HttpServletRequest;
 
 @Controller
+@RequestMapping("/employee")
 public class MyController {
 
     @RequestMapping("/")
