@@ -21,11 +21,17 @@
     <br>
     <br>
     Salary <form:input path="salary"/>
+    <form:errors path="salary"/>
     <br>
     <br>
     Department <form:select path="department">
     <form:options items="${employee.departments}"/>
     </form:select>
+    <br>
+    <br>
+
+    Phone number <form:input path="phoneNumber"/>
+    <form:errors path="phoneNumber"/>
     <br>
     <br>
     Which car do you want? <form:radiobuttons path="carBrand" items="${employee.carBrands}"/>
