@@ -9,7 +9,6 @@
 <br>
 <br>
 
-<%--Your name: ${param.employeeName}--%>
 Your name: ${employee.name}
 <br>
 Your surname: ${employee.surname}
@@ -21,6 +20,9 @@ Your department: ${employee.department}
 Your car: ${employee.carBrand}
 <br>
 Your phone number: ${employee.phoneNumber}
+
+<br>
+Your email: ${employee.email}
 
 <br>
 Language(s):
